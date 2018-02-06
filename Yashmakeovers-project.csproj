@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DA31C651-3C9B-489E-83A2-0CA30C059D2D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Yashmakeovers_project</RootNamespace>
+    <AssemblyName>Yashmakeovers-project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="111610-pretty\eps\anti-aging-cream.eps" />
+    <Content Include="111610-pretty\eps\bathroom-scale.eps" />
+    <Content Include="111610-pretty\eps\beauty-face-mask.eps" />
+    <Content Include="111610-pretty\eps\big-perfume-bottle.eps" />
+    <Content Include="111610-pretty\eps\blush-brush.eps" />
+    <Content Include="111610-pretty\eps\body-lotion.eps" />
+    <Content Include="111610-pretty\eps\cosmetic-bag.eps" />
+    <Content Include="111610-pretty\eps\cotton-swabs.eps" />
+    <Content Include="111610-pretty\eps\electric-shaver-for-women.eps" />
+    <Content Include="111610-pretty\eps\eye-make-up.eps" />
+    <Content Include="111610-pretty\eps\eye-shadow-makeup.eps" />
+    <Content Include="111610-pretty\eps\eye-shadow-pallette.eps" />
+    <Content Include="111610-pretty\eps\eyelashes-curler.eps" />
+    <Content Include="111610-pretty\eps\eyeliner.eps" />
+    <Content Include="111610-pretty\eps\eyes-mascara.eps" />
+    <Content Include="111610-pretty\eps\false-eyelashes.eps" />
+    <Content Include="111610-pretty\eps\french-perfume-bottle.eps" />
+    <Content Include="111610-pretty\eps\hair-brush.eps" />
+    <Content Include="111610-pretty\eps\hair-clamp.eps" />
+    <Content Include="111610-pretty\eps\hair-dryer.eps" />
+    <Content Include="111610-pretty\eps\hair-dye-kit.eps" />
+    <Content Include="111610-pretty\eps\hair-rollers.eps" />
+    <Content Include="111610-pretty\eps\hair-spray.eps" />
+    <Content Include="111610-pretty\eps\hair-straightener.eps" />
+    <Content Include="111610-pretty\eps\hand-cream.eps" />
+    <Content Include="111610-pretty\eps\hand-mirror.eps" />
+    <Content Include="111610-pretty\eps\high-heel-shoe.eps" />
+    <Content Include="111610-pretty\eps\hot-stone-massage.eps" />
+    <Content Include="111610-pretty\eps\lipstick-with-cover.eps" />
+    <Content Include="111610-pretty\eps\liquid-lipstick.eps" />
+    <Content Include="111610-pretty\eps\makeup-brushes.eps" />
+    <Content Include="111610-pretty\eps\makeup-mirror.eps" />
+    <Content Include="111610-pretty\eps\makeup-remover-wipes.eps" />
+    <Content Include="111610-pretty\eps\manicure-scissors.eps" />
+    <Content Include="111610-pretty\eps\manicure-set.eps" />
+    <Content Include="111610-pretty\eps\matte-powder.eps" />
+    <Content Include="111610-pretty\eps\mirrored-vanity-desk.eps" />
+    <Content Include="111610-pretty\eps\moisturizing-lotion.eps" />
+    <Content Include="111610-pretty\eps\nail-polish.eps" />
+    <Content Include="111610-pretty\eps\one-comb.eps" />
+    <Content Include="111610-pretty\eps\panties-with-lace.eps" />
+    <Content Include="111610-pretty\eps\picnic-basket.eps" />
+    <Content Include="111610-pretty\eps\roll-on-deodorant.eps" />
+    <Content Include="111610-pretty\eps\toothbrush-and-toothpaste.eps" />
+    <Content Include="111610-pretty\eps\two-earrings.eps" />
+    <Content Include="111610-pretty\eps\two-nail-polish.eps" />
+    <Content Include="111610-pretty\eps\women-brassiere.eps" />
+    <Content Include="111610-pretty\eps\women-corset.eps" />
+    <Content Include="111610-pretty\eps\women-lips.eps" />
+    <Content Include="111610-pretty\eps\women-razor.eps" />
+    <Content Include="111610-pretty\font\Flaticon.eot" />
+    <Content Include="111610-pretty\font\Flaticon.ttf" />
+    <Content Include="111610-pretty\font\Flaticon.woff" />
+    <Content Include="111610-pretty\font\_flaticon.scss" />
+    <Content Include="111610-pretty\psd\anti-aging-cream.psd" />
+    <Content Include="111610-pretty\psd\bathroom-scale.psd" />
+    <Content Include="111610-pretty\psd\beauty-face-mask.psd" />
+    <Content Include="111610-pretty\psd\big-perfume-bottle.psd" />
+    <Content Include="111610-pretty\psd\blush-brush.psd" />
+    <Content Include="111610-pretty\psd\body-lotion.psd" />
+    <Content Include="111610-pretty\psd\cosmetic-bag.psd" />
+    <Content Include="111610-pretty\psd\cotton-swabs.psd" />
+    <Content Include="111610-pretty\psd\electric-shaver-for-women.psd" />
+    <Content Include="111610-pretty\psd\eye-make-up.psd" />
+    <Content Include="111610-pretty\psd\eye-shadow-makeup.psd" />
+    <Content Include="111610-pretty\psd\eye-shadow-pallette.psd" />
+    <Content Include="111610-pretty\psd\eyelashes-curler.psd" />
+    <Content Include="111610-pretty\psd\eyeliner.psd" />
+    <Content Include="111610-pretty\psd\eyes-mascara.psd" />
+    <Content Include="111610-pretty\psd\false-eyelashes.psd" />
+    <Content Include="111610-pretty\psd\french-perfume-bottle.psd" />
+    <Content Include="111610-pretty\psd\hair-brush.psd" />
+    <Content Include="111610-pretty\psd\hair-clamp.psd" />
+    <Content Include="111610-pretty\psd\hair-dryer.psd" />
+    <Content Include="111610-pretty\psd\hair-dye-kit.psd" />
+    <Content Include="111610-pretty\psd\hair-rollers.psd" />
+    <Content Include="111610-pretty\psd\hair-spray.psd" />
+    <Content Include="111610-pretty\psd\hair-straightener.psd" />
+    <Content Include="111610-pretty\psd\hand-cream.psd" />
+    <Content Include="111610-pretty\psd\hand-mirror.psd" />
+    <Content Include="111610-pretty\psd\high-heel-shoe.psd" />
+    <Content Include="111610-pretty\psd\hot-stone-massage.psd" />
+    <Content Include="111610-pretty\psd\lipstick-with-cover.psd" />
+    <Content Include="111610-pretty\psd\liquid-lipstick.psd" />
+    <Content Include="111610-pretty\psd\makeup-brushes.psd" />
+    <Content Include="111610-pretty\psd\makeup-mirror.psd" />
+    <Content Include="111610-pretty\psd\makeup-remover-wipes.psd" />
+    <Content Include="111610-pretty\psd\manicure-scissors.psd" />
+    <Content Include="111610-pretty\psd\manicure-set.psd" />
+    <Content Include="111610-pretty\psd\matte-powder.psd" />
+    <Content Include="111610-pretty\psd\mirrored-vanity-desk.psd" />
+    <Content Include="111610-pretty\psd\moisturizing-lotion.psd" />
+    <Content Include="111610-pretty\psd\nail-polish.psd" />
+    <Content Include="111610-pretty\psd\one-comb.psd" />
+    <Content Include="111610-pretty\psd\panties-with-lace.psd" />
+    <Content Include="111610-pretty\psd\picnic-basket.psd" />
+    <Content Include="111610-pretty\psd\roll-on-deodorant.psd" />
+    <Content Include="111610-pretty\psd\toothbrush-and-toothpaste.psd" />
+    <Content Include="111610-pretty\psd\two-earrings.psd" />
+    <Content Include="111610-pretty\psd\two-nail-polish.psd" />
+    <Content Include="111610-pretty\psd\women-brassiere.psd" />
+    <Content Include="111610-pretty\psd\women-corset.psd" />
+    <Content Include="111610-pretty\psd\women-lips.psd" />
+    <Content Include="111610-pretty\psd\women-razor.psd" />
+    <Content Include="assets\fonts\Flaticon.eot" />
+    <Content Include="assets\fonts\Flaticon.ttf" />
+    <Content Include="assets\fonts\Flaticon.woff" />
+    <Content Include="assets\fonts\Flaticond41d.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont5b62.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont5b62.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont5b62.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont5b62.woff2" />
+    <Content Include="assets\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="assets\images\bg\n1.jpg" />
+    <Content Include="assets\images\bg\q2.jpg" />
+    <Content Include="assets\images\bg\q4.png" />
+    <Content Include="assets\images\bg\q5.jpg" />
+    <Content Include="assets\images\bg\q6.jpg" />
+    <Content Include="bin\MakeUpProject1.dll.config" />
+    <Content Include="dummy.html" />
+    <Content Include="new-pics\glitter.png" />
+    <Content Include="new-pics\q1.jpg" />
+    <Content Include="new-pics\q3.jpg" />
+    <Content Include="new-pics\q5.jpg" />
+    <Content Include="new-pics\Yash-makeovers-banner1.jpg" />
+    <Content Include="new-pics\Yash-makeovers-banner2.jpg" />
+    <Content Include="Party-Makeup.html" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\MakeUpProject1.csprojResolveAssemblyReference.cache" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="111610-pretty\font\flaticon.css" />
+    <Content Include="111610-pretty\font\flaticon.html" />
+    <Content Include="111610-pretty\font\Flaticon.svg" />
+    <Content Include="111610-pretty\license\license.html" />
+    <Content Include="111610-pretty\png\anti-aging-cream.png" />
+    <Content Include="111610-pretty\png\bathroom-scale.png" />
+    <Content Include="111610-pretty\png\beauty-face-mask.png" />
+    <Content Include="111610-pretty\png\big-perfume-bottle.png" />
+    <Content Include="111610-pretty\png\blush-brush.png" />
+    <Content Include="111610-pretty\png\body-lotion.png" />
+    <Content Include="111610-pretty\png\cosmetic-bag.png" />
+    <Content Include="111610-pretty\png\cotton-swabs.png" />
+    <Content Include="111610-pretty\png\electric-shaver-for-women.png" />
+    <Content Include="111610-pretty\png\eye-make-up.png" />
+    <Content Include="111610-pretty\png\eye-shadow-makeup.png" />
+    <Content Include="111610-pretty\png\eye-shadow-pallette.png" />
+    <Content Include="111610-pretty\png\eyelashes-curler.png" />
+    <Content Include="111610-pretty\png\eyeliner.png" />
+    <Content Include="111610-pretty\png\eyes-mascara.png" />
+    <Content Include="111610-pretty\png\false-eyelashes.png" />
+    <Content Include="111610-pretty\png\french-perfume-bottle.png" />
+    <Content Include="111610-pretty\png\hair-brush.png" />
+    <Content Include="111610-pretty\png\hair-clamp.png" />
+    <Content Include="111610-pretty\png\hair-dryer.png" />
+    <Content Include="111610-pretty\png\hair-dye-kit.png" />
+    <Content Include="111610-pretty\png\hair-rollers.png" />
+    <Content Include="111610-pretty\png\hair-spray.png" />
+    <Content Include="111610-pretty\png\hair-straightener.png" />
+    <Content Include="111610-pretty\png\hand-cream.png" />
+    <Content Include="111610-pretty\png\hand-mirror.png" />
+    <Content Include="111610-pretty\png\high-heel-shoe.png" />
+    <Content Include="111610-pretty\png\hot-stone-massage.png" />
+    <Content Include="111610-pretty\png\lipstick-with-cover.png" />
+    <Content Include="111610-pretty\png\liquid-lipstick.png" />
+    <Content Include="111610-pretty\png\makeup-brushes.png" />
+    <Content Include="111610-pretty\png\makeup-mirror.png" />
+    <Content Include="111610-pretty\png\makeup-remover-wipes.png" />
+    <Content Include="111610-pretty\png\manicure-scissors.png" />
+    <Content Include="111610-pretty\png\manicure-set.png" />
+    <Content Include="111610-pretty\png\matte-powder.png" />
+    <Content Include="111610-pretty\png\mirrored-vanity-desk.png" />
+    <Content Include="111610-pretty\png\moisturizing-lotion.png" />
+    <Content Include="111610-pretty\png\nail-polish.png" />
+    <Content Include="111610-pretty\png\one-comb.png" />
+    <Content Include="111610-pretty\png\panties-with-lace.png" />
+    <Content Include="111610-pretty\png\picnic-basket.png" />
+    <Content Include="111610-pretty\png\roll-on-deodorant.png" />
+    <Content Include="111610-pretty\png\toothbrush-and-toothpaste.png" />
+    <Content Include="111610-pretty\png\two-earrings.png" />
+    <Content Include="111610-pretty\png\two-nail-polish.png" />
+    <Content Include="111610-pretty\png\women-brassiere.png" />
+    <Content Include="111610-pretty\png\women-corset.png" />
+    <Content Include="111610-pretty\png\women-lips.png" />
+    <Content Include="111610-pretty\png\women-razor.png" />
+    <Content Include="111610-pretty\svg\anti-aging-cream.svg" />
+    <Content Include="111610-pretty\svg\bathroom-scale.svg" />
+    <Content Include="111610-pretty\svg\beauty-face-mask.svg" />
+    <Content Include="111610-pretty\svg\big-perfume-bottle.svg" />
+    <Content Include="111610-pretty\svg\blush-brush.svg" />
+    <Content Include="111610-pretty\svg\body-lotion.svg" />
+    <Content Include="111610-pretty\svg\cosmetic-bag.svg" />
+    <Content Include="111610-pretty\svg\cotton-swabs.svg" />
+    <Content Include="111610-pretty\svg\electric-shaver-for-women.svg" />
+    <Content Include="111610-pretty\svg\eye-make-up.svg" />
+    <Content Include="111610-pretty\svg\eye-shadow-makeup.svg" />
+    <Content Include="111610-pretty\svg\eye-shadow-pallette.svg" />
+    <Content Include="111610-pretty\svg\eyelashes-curler.svg" />
+    <Content Include="111610-pretty\svg\eyeliner.svg" />
+    <Content Include="111610-pretty\svg\eyes-mascara.svg" />
+    <Content Include="111610-pretty\svg\false-eyelashes.svg" />
+    <Content Include="111610-pretty\svg\french-perfume-bottle.svg" />
+    <Content Include="111610-pretty\svg\hair-brush.svg" />
+    <Content Include="111610-pretty\svg\hair-clamp.svg" />
+    <Content Include="111610-pretty\svg\hair-dryer.svg" />
+    <Content Include="111610-pretty\svg\hair-dye-kit.svg" />
+    <Content Include="111610-pretty\svg\hair-rollers.svg" />
+    <Content Include="111610-pretty\svg\hair-spray.svg" />
+    <Content Include="111610-pretty\svg\hair-straightener.svg" />
+    <Content Include="111610-pretty\svg\hand-cream.svg" />
+    <Content Include="111610-pretty\svg\hand-mirror.svg" />
+    <Content Include="111610-pretty\svg\high-heel-shoe.svg" />
+    <Content Include="111610-pretty\svg\hot-stone-massage.svg" />
+    <Content Include="111610-pretty\svg\lipstick-with-cover.svg" />
+    <Content Include="111610-pretty\svg\liquid-lipstick.svg" />
+    <Content Include="111610-pretty\svg\makeup-brushes.svg" />
+    <Content Include="111610-pretty\svg\makeup-mirror.svg" />
+    <Content Include="111610-pretty\svg\makeup-remover-wipes.svg" />
+    <Content Include="111610-pretty\svg\manicure-scissors.svg" />
+    <Content Include="111610-pretty\svg\manicure-set.svg" />
+    <Content Include="111610-pretty\svg\matte-powder.svg" />
+    <Content Include="111610-pretty\svg\mirrored-vanity-desk.svg" />
+    <Content Include="111610-pretty\svg\moisturizing-lotion.svg" />
+    <Content Include="111610-pretty\svg\nail-polish.svg" />
+    <Content Include="111610-pretty\svg\one-comb.svg" />
+    <Content Include="111610-pretty\svg\panties-with-lace.svg" />
+    <Content Include="111610-pretty\svg\picnic-basket.svg" />
+    <Content Include="111610-pretty\svg\roll-on-deodorant.svg" />
+    <Content Include="111610-pretty\svg\toothbrush-and-toothpaste.svg" />
+    <Content Include="111610-pretty\svg\two-earrings.svg" />
+    <Content Include="111610-pretty\svg\two-nail-polish.svg" />
+    <Content Include="111610-pretty\svg\women-brassiere.svg" />
+    <Content Include="111610-pretty\svg\women-corset.svg" />
+    <Content Include="111610-pretty\svg\women-lips.svg" />
+    <Content Include="111610-pretty\svg\women-razor.svg" />
+    <Content Include="about.html" />
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\flaticon.css" />
+    <Content Include="assets\css\Flaticon.html" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\images\ui-bg_flat_0_aaaaaa_40x100.html" />
+    <Content Include="assets\css\images\ui-bg_flat_75_ffffff_40x100.html" />
+    <Content Include="assets\css\images\ui-bg_glass_55_fbf9ee_1x400.html" />
+    <Content Include="assets\css\images\ui-bg_glass_65_ffffff_1x400.html" />
+    <Content Include="assets\css\images\ui-bg_glass_75_dadada_1x400.html" />
+    <Content Include="assets\css\images\ui-bg_glass_75_e6e6e6_1x400.html" />
+    <Content Include="assets\css\images\ui-bg_glass_95_fef1ec_1x400.html" />
+    <Content Include="assets\css\images\ui-bg_highlight-soft_75_cccccc_1x100.html" />
+    <Content Include="assets\css\images\ui-icons_222222_256x240.html" />
+    <Content Include="assets\css\images\ui-icons_2e83ff_256x240.html" />
+    <Content Include="assets\css\images\ui-icons_454545_256x240.html" />
+    <Content Include="assets\css\images\ui-icons_888888_256x240.html" />
+    <Content Include="assets\css\images\ui-icons_cd0a0a_256x240.html" />
+    <Content Include="assets\css\jquery-ui.css" />
+    <Content Include="assets\css\magnific-popup.css" />
+    <Content Include="assets\css\owl.carousel.css" />
+    <Content Include="assets\css\owl.video.play.html" />
+    <Content Include="assets\css\responsive.css" />
+    <Content Include="assets\css\slicknav.min.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\fonts\Flaticon.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont5b62.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\images\about.jpg" />
+    <Content Include="assets\images\about\1.jpg" />
+    <Content Include="assets\images\admin.jpg" />
+    <Content Include="assets\images\bg\1.jpg" />
+    <Content Include="assets\images\bg\10.jpg" />
+    <Content Include="assets\images\bg\11.jpg" />
+    <Content Include="assets\images\bg\12.jpg" />
+    <Content Include="assets\images\bg\13.jpg" />
+    <Content Include="assets\images\bg\14.jpg" />
+    <Content Include="assets\images\bg\15.jpg" />
+    <Content Include="assets\images\bg\3.jpg" />
+    <Content Include="assets\images\bg\4.jpg" />
+    <Content Include="assets\images\bg\5.jpg" />
+    <Content Include="assets\images\bg\6.jpg" />
+    <Content Include="assets\images\bg\7.jpg" />
+    <Content Include="assets\images\bg\8.jpg" />
+    <Content Include="assets\images\bg\9.jpg" />
+    <Content Include="assets\images\bg\a7.jpg" />
+    <Content Include="assets\images\bg\a8.jpg" />
+    <Content Include="assets\images\bg\banner.jpg" />
+    <Content Include="assets\images\bg\brown-satin.jpg" />
+    <Content Include="assets\images\bg\compact-and-brush.gif" />
+    <Content Include="assets\images\bg\rose.jpg" />
+    <Content Include="assets\images\bg\small-banner1.jpg" />
+    <Content Include="assets\images\bg\ym30.jpg" />
+    <Content Include="assets\images\blog\1.jpg" />
+    <Content Include="assets\images\blog\2.jpg" />
+    <Content Include="assets\images\blog\3.jpg" />
+    <Content Include="assets\images\blog\4.jpg" />
+    <Content Include="assets\images\blog\5.jpg" />
+    <Content Include="assets\images\blog\6.jpg" />
+    <Content Include="assets\images\blog\author.jpg" />
+    <Content Include="assets\images\blog\blog-details.jpg" />
+    <Content Include="assets\images\blog\blog-details2.jpg" />
+    <Content Include="assets\images\blog\blog-details3.jpg" />
+    <Content Include="assets\images\blog\blog-details4.jpg" />
+    <Content Include="assets\images\blog\blog-details5.jpg" />
+    <Content Include="assets\images\blog\blog-details6.jpg" />
+    <Content Include="assets\images\blog\comment\1.jpg" />
+    <Content Include="assets\images\blog\comment\2.jpg" />
+    <Content Include="assets\images\blog\comment\3.jpg" />
+    <Content Include="assets\images\blog\comment\4.jpg" />
+    <Content Include="assets\images\brand\1.jpg" />
+    <Content Include="assets\images\brand\2.jpg" />
+    <Content Include="assets\images\brand\3.jpg" />
+    <Content Include="assets\images\brand\4.jpg" />
+    <Content Include="assets\images\brand\5.jpg" />
+    <Content Include="assets\images\brand\6.jpg" />
+    <Content Include="assets\images\brand\7.jpg" />
+    <Content Include="assets\images\cart\1.jpg" />
+    <Content Include="assets\images\cart\2.jpg" />
+    <Content Include="assets\images\cart\3.jpg" />
+    <Content Include="assets\images\cart\4.jpg" />
+    <Content Include="assets\images\cart\5.jpg" />
+    <Content Include="assets\images\comments\1.jpg" />
+    <Content Include="assets\images\comments\2.jpg" />
+    <Content Include="assets\images\comments\3.jpg" />
+    <Content Include="assets\images\favicon.png" />
+    <Content Include="assets\images\instagram\1.jpg" />
+    <Content Include="assets\images\instagram\2.jpg" />
+    <Content Include="assets\images\instagram\3.jpg" />
+    <Content Include="assets\images\instagram\4.jpg" />
+    <Content Include="assets\images\instagram\5.jpg" />
+    <Content Include="assets\images\instagram\6.jpg" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logo2.png" />
+    <Content Include="assets\images\open.png" />
+    <Content Include="assets\images\portfolio\1.jpg" />
+    <Content Include="assets\images\portfolio\2.jpg" />
+    <Content Include="assets\images\portfolio\3.jpg" />
+    <Content Include="assets\images\portfolio\4.jpg" />
+    <Content Include="assets\images\portfolio\5.jpg" />
+    <Content Include="assets\images\portfolio\6.jpg" />
+    <Content Include="assets\images\portfolio\7.jpg" />
+    <Content Include="assets\images\portfolio\8.jpg" />
+    <Content Include="assets\images\portfolio\9.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\1.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\10.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\11.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\12.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\13.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\2.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\3.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\4.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\6.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\7.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\8.jpg" />
+    <Content Include="assets\images\portfolio\portfolio2\9.jpg" />
+    <Content Include="assets\images\related-post\1.jpg" />
+    <Content Include="assets\images\related-post\2.jpg" />
+    <Content Include="assets\images\related-post\3.jpg" />
+    <Content Include="assets\images\service\1.jpg" />
+    <Content Include="assets\images\service\2.jpg" />
+    <Content Include="assets\images\service\3.jpg" />
+    <Content Include="assets\images\service\4.jpg" />
+    <Content Include="assets\images\service\5.jpg" />
+    <Content Include="assets\images\service\6.jpg" />
+    <Content Include="assets\images\service\single-service.jpg" />
+    <Content Include="assets\images\shop\1.jpg" />
+    <Content Include="assets\images\shop\2.jpg" />
+    <Content Include="assets\images\shop\3.jpg" />
+    <Content Include="assets\images\shop\4.jpg" />
+    <Content Include="assets\images\shop\5.jpg" />
+    <Content Include="assets\images\shop\6.jpg" />
+    <Content Include="assets\images\shop\shop-details\1.jpg" />
+    <Content Include="assets\images\shop\shop-details\2.jpg" />
+    <Content Include="assets\images\shop\shop-details\3.jpg" />
+    <Content Include="assets\images\slider\1.jpg" />
+    <Content Include="assets\images\slider\2.jpg" />
+    <Content Include="assets\images\slider\3.jpg" />
+    <Content Include="assets\images\slider\4.jpg" />
+    <Content Include="assets\images\team\1.jpg" />
+    <Content Include="assets\images\team\2.jpg" />
+    <Content Include="assets\images\team\3.jpg" />
+    <Content Include="assets\images\team\4.jpg" />
+    <Content Include="assets\images\team\5.jpg" />
+    <Content Include="assets\images\team\6.jpg" />
+    <Content Include="assets\images\team\7.jpg" />
+    <Content Include="assets\images\team\team-details1.jpg" />
+    <Content Include="assets\images\team\team-details2.jpg" />
+    <Content Include="assets\images\team\team-details3.jpg" />
+    <Content Include="assets\images\test\1.jpg" />
+    <Content Include="assets\images\test\2.jpg" />
+    <Content Include="assets\images\test\3.jpg" />
+    <Content Include="assets\images\test\4.jpg" />
+    <Content Include="assets\images\test\5.jpg" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\counterup.main.js" />
+    <Content Include="assets\js\imagesloaded.pkgd.min.js" />
+    <Content Include="assets\js\isotope.pkgd.min.js" />
+    <Content Include="assets\js\jquery-ui.min.js" />
+    <Content Include="assets\js\jquery.magnific-popup.min.js" />
+    <Content Include="assets\js\jquery.slicknav.min.js" />
+    <Content Include="assets\js\jquery.waypoints.min.js" />
+    <Content Include="assets\js\owl.carousel.min.js" />
+    <Content Include="assets\js\plugins.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="assets\js\vendor\modernizr-2.8.3.min.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="bin\MakeUpProject1.dll" />
+    <Content Include="bin\MakeUpProject1.pdb" />
+    <Content Include="gallery.html" />
+    <Content Include="Engagement-Makeup.html" />
+    <Content Include="contact.html" />
+    <Content Include="index.html" />
+    <Content Include="new-pics\3121f829655daaaa0d519609a012252b.gif" />
+    <Content Include="new-pics\a1.jpg" />
+    <Content Include="new-pics\a11.jpg" />
+    <Content Include="new-pics\a2.jpg" />
+    <Content Include="new-pics\a3.jpg" />
+    <Content Include="new-pics\a4.JPG" />
+    <Content Include="new-pics\a5.png" />
+    <Content Include="new-pics\a6.jpg" />
+    <Content Include="new-pics\about-yashmakeovers.png" />
+    <Content Include="new-pics\bag-brushes.gif" />
+    <Content Include="new-pics\banner.jpg" />
+    <Content Include="new-pics\blue-blue.jpg" />
+    <Content Include="new-pics\blue-brushes.JPG" />
+    <Content Include="new-pics\blue-eye-makeup.gif" />
+    <Content Include="new-pics\bridal-right.jpg" />
+    <Content Include="new-pics\bridal.jpg" />
+    <Content Include="new-pics\bridal2.jpg" />
+    <Content Include="new-pics\brown-satin.jpg" />
+    <Content Include="new-pics\brush-brokencompact.jpg" />
+    <Content Include="new-pics\brush-on-crushed-powder_23-2147710614.jpg" />
+    <Content Include="new-pics\brushes-2.jpg" />
+    <Content Include="new-pics\brushes.gif" />
+    <Content Include="new-pics\colors.jpg" />
+    <Content Include="new-pics\colour-rice-powder-rose.png" />
+    <Content Include="new-pics\compact-and-brush.gif" />
+    <Content Include="new-pics\eye-gifh.gif" />
+    <Content Include="new-pics\eye-makeup.gif" />
+    <Content Include="new-pics\eye-shadow-gif.gif" />
+    <Content Include="new-pics\eyes.jpg" />
+    <Content Include="new-pics\eyes2.jpg" />
+    <Content Include="new-pics\eyes3.gif" />
+    <Content Include="new-pics\face1.gif" />
+    <Content Include="new-pics\face2.jpg" />
+    <Content Include="new-pics\face3.gif" />
+    <Content Include="new-pics\face5-done.gif" />
+    <Content Include="new-pics\giphy %281%29.gif" />
+    <Content Include="new-pics\giphy.gif" />
+    <Content Include="new-pics\girl.jpg" />
+    <Content Include="new-pics\golden-eye.gif" />
+    <Content Include="new-pics\hands.jpg" />
+    <Content Include="new-pics\how-to-choose-quality-makeup-brushes-1.jpg" />
+    <Content Include="new-pics\image.gif" />
+    <Content Include="new-pics\image1.jpeg" />
+    <Content Include="new-pics\lehenga.jpg" />
+    <Content Include="new-pics\lip-gloss.jpg" />
+    <Content Include="new-pics\lipcolor.jpg" />
+    <Content Include="new-pics\lipstick-gif.gif" />
+    <Content Include="new-pics\loosepowder.jpg" />
+    <Content Include="new-pics\loosepowder_spilling_butter_cropped_1024x1024.jpeg" />
+    <Content Include="new-pics\makeup-brushes.gif" />
+    <Content Include="new-pics\makeup-kit.gif" />
+    <Content Include="new-pics\makeup.jpg" />
+    <Content Include="new-pics\makeup2.gif" />
+    <Content Include="new-pics\makeupkit.png" />
+    <Content Include="new-pics\Mineral_Brushes.gif" />
+    <Content Include="new-pics\nails.jpg" />
+    <Content Include="new-pics\nails2.jpg" />
+    <Content Include="new-pics\nails3.jpg" />
+    <Content Include="new-pics\original-makeup.gif" />
+    <Content Include="new-pics\pink-color.jpg" />
+    <Content Include="new-pics\pink.jpg" />
+    <Content Include="new-pics\ride.jpg" />
+    <Content Include="new-pics\rose.jpg" />
+    <Content Include="new-pics\rose1.jpg" />
+    <Content Include="new-pics\satin.jpg" />
+    <Content Include="new-pics\small-banner1.jpg" />
+    <Content Include="new-pics\two-colors.gif" />
+    <Content Include="new-pics\weddings.jpg" />
+    <Content Include="new-pics\whitedress.jpg" />
+    <Content Include="new-pics\y1.png" />
+    <Content Include="new-pics\y2.png" />
+    <Content Include="new-pics\yash-makeovers-banners.jpg" />
+    <Content Include="new-pics\yash-makeovers.jpg" />
+    <Content Include="new-pics\yash-makeovers1.JPG" />
+    <Content Include="new-pics\ym1.jpg" />
+    <Content Include="new-pics\ym10.jpg" />
+    <Content Include="new-pics\ym11.jpg" />
+    <Content Include="new-pics\ym12.jpg" />
+    <Content Include="new-pics\ym13.jpg" />
+    <Content Include="new-pics\ym14.jpg" />
+    <Content Include="new-pics\ym15.jpg" />
+    <Content Include="new-pics\ym16.jpg" />
+    <Content Include="new-pics\ym17.jpg" />
+    <Content Include="new-pics\ym18.jpg" />
+    <Content Include="new-pics\ym19.jpg" />
+    <Content Include="new-pics\ym2.jpg" />
+    <Content Include="new-pics\ym20.jpg" />
+    <Content Include="new-pics\ym21.jpg" />
+    <Content Include="new-pics\ym22.jpg" />
+    <Content Include="new-pics\ym23.jpg" />
+    <Content Include="new-pics\ym24.jpg" />
+    <Content Include="new-pics\ym25.jpg" />
+    <Content Include="new-pics\ym3.jpg" />
+    <Content Include="new-pics\ym4.jpg" />
+    <Content Include="new-pics\ym5.jpg" />
+    <Content Include="new-pics\ym6.jpg" />
+    <Content Include="new-pics\ym7.jpg" />
+    <Content Include="new-pics\ym8.jpg" />
+    <Content Include="new-pics\ym9.jpg" />
+    <Content Include="obj\Debug\MakeUpProject1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\MakeUpProject1.dll" />
+    <Content Include="obj\Debug\MakeUpProject1.pdb" />
+    <Content Include="Bridal-Makeup.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36091</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:36091/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

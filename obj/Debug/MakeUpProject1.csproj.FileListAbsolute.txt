@@ -1,0 +1,6 @@
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\bin\MakeUpProject1.dll.config
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\bin\MakeUpProject1.dll
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\bin\MakeUpProject1.pdb
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\obj\Debug\MakeUpProject1.csprojResolveAssemblyReference.cache
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\obj\Debug\MakeUpProject1.dll
+E:\MOW-projects\MakeUpProject1\MakeUpProject1\obj\Debug\MakeUpProject1.pdb

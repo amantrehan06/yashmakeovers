@@ -1,0 +1,6 @@
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\bin\Yashmakeovers-project.dll.config
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\bin\Yashmakeovers-project.dll
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\bin\Yashmakeovers-project.pdb
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\obj\Debug\Yashmakeovers-project.csprojResolveAssemblyReference.cache
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\obj\Debug\Yashmakeovers-project.dll
+E:\MOW_projects\Yashmakeovers\Yashmakeovers-project\Yashmakeovers-project\obj\Debug\Yashmakeovers-project.pdb

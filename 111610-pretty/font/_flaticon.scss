@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:20
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-anti-aging-cream:before { content: "\f100"; }
+.flaticon-bathroom-scale:before { content: "\f101"; }
+.flaticon-beauty-face-mask:before { content: "\f102"; }
+.flaticon-big-perfume-bottle:before { content: "\f103"; }
+.flaticon-blush-brush:before { content: "\f104"; }
+.flaticon-body-lotion:before { content: "\f105"; }
+.flaticon-cosmetic-bag:before { content: "\f106"; }
+.flaticon-cotton-swabs:before { content: "\f107"; }
+.flaticon-electric-shaver-for-women:before { content: "\f108"; }
+.flaticon-eye-make-up:before { content: "\f109"; }
+.flaticon-eye-shadow-makeup:before { content: "\f10a"; }
+.flaticon-eye-shadow-pallette:before { content: "\f10b"; }
+.flaticon-eyelashes-curler:before { content: "\f10c"; }
+.flaticon-eyeliner:before { content: "\f10d"; }
+.flaticon-eyes-mascara:before { content: "\f10e"; }
+.flaticon-false-eyelashes:before { content: "\f10f"; }
+.flaticon-french-perfume-bottle:before { content: "\f110"; }
+.flaticon-hair-brush:before { content: "\f111"; }
+.flaticon-hair-clamp:before { content: "\f112"; }
+.flaticon-hair-dryer:before { content: "\f113"; }
+.flaticon-hair-dye-kit:before { content: "\f114"; }
+.flaticon-hair-rollers:before { content: "\f115"; }
+.flaticon-hair-spray:before { content: "\f116"; }
+.flaticon-hair-straightener:before { content: "\f117"; }
+.flaticon-hand-cream:before { content: "\f118"; }
+.flaticon-hand-mirror:before { content: "\f119"; }
+.flaticon-high-heel-shoe:before { content: "\f11a"; }
+.flaticon-hot-stone-massage:before { content: "\f11b"; }
+.flaticon-lipstick-with-cover:before { content: "\f11c"; }
+.flaticon-liquid-lipstick:before { content: "\f11d"; }
+.flaticon-makeup-brushes:before { content: "\f11e"; }
+.flaticon-makeup-mirror:before { content: "\f11f"; }
+.flaticon-makeup-remover-wipes:before { content: "\f120"; }
+.flaticon-manicure-scissors:before { content: "\f121"; }
+.flaticon-manicure-set:before { content: "\f122"; }
+.flaticon-matte-powder:before { content: "\f123"; }
+.flaticon-mirrored-vanity-desk:before { content: "\f124"; }
+.flaticon-moisturizing-lotion:before { content: "\f125"; }
+.flaticon-nail-polish:before { content: "\f126"; }
+.flaticon-one-comb:before { content: "\f127"; }
+.flaticon-panties-with-lace:before { content: "\f128"; }
+.flaticon-picnic-basket:before { content: "\f129"; }
+.flaticon-roll-on-deodorant:before { content: "\f12a"; }
+.flaticon-toothbrush-and-toothpaste:before { content: "\f12b"; }
+.flaticon-two-earrings:before { content: "\f12c"; }
+.flaticon-two-nail-polish:before { content: "\f12d"; }
+.flaticon-women-brassiere:before { content: "\f12e"; }
+.flaticon-women-corset:before { content: "\f12f"; }
+.flaticon-women-lips:before { content: "\f130"; }
+.flaticon-women-razor:before { content: "\f131"; }
+    
+    $font-Flaticon-anti-aging-cream: "\f100";
+    $font-Flaticon-bathroom-scale: "\f101";
+    $font-Flaticon-beauty-face-mask: "\f102";
+    $font-Flaticon-big-perfume-bottle: "\f103";
+    $font-Flaticon-blush-brush: "\f104";
+    $font-Flaticon-body-lotion: "\f105";
+    $font-Flaticon-cosmetic-bag: "\f106";
+    $font-Flaticon-cotton-swabs: "\f107";
+    $font-Flaticon-electric-shaver-for-women: "\f108";
+    $font-Flaticon-eye-make-up: "\f109";
+    $font-Flaticon-eye-shadow-makeup: "\f10a";
+    $font-Flaticon-eye-shadow-pallette: "\f10b";
+    $font-Flaticon-eyelashes-curler: "\f10c";
+    $font-Flaticon-eyeliner: "\f10d";
+    $font-Flaticon-eyes-mascara: "\f10e";
+    $font-Flaticon-false-eyelashes: "\f10f";
+    $font-Flaticon-french-perfume-bottle: "\f110";
+    $font-Flaticon-hair-brush: "\f111";
+    $font-Flaticon-hair-clamp: "\f112";
+    $font-Flaticon-hair-dryer: "\f113";
+    $font-Flaticon-hair-dye-kit: "\f114";
+    $font-Flaticon-hair-rollers: "\f115";
+    $font-Flaticon-hair-spray: "\f116";
+    $font-Flaticon-hair-straightener: "\f117";
+    $font-Flaticon-hand-cream: "\f118";
+    $font-Flaticon-hand-mirror: "\f119";
+    $font-Flaticon-high-heel-shoe: "\f11a";
+    $font-Flaticon-hot-stone-massage: "\f11b";
+    $font-Flaticon-lipstick-with-cover: "\f11c";
+    $font-Flaticon-liquid-lipstick: "\f11d";
+    $font-Flaticon-makeup-brushes: "\f11e";
+    $font-Flaticon-makeup-mirror: "\f11f";
+    $font-Flaticon-makeup-remover-wipes: "\f120";
+    $font-Flaticon-manicure-scissors: "\f121";
+    $font-Flaticon-manicure-set: "\f122";
+    $font-Flaticon-matte-powder: "\f123";
+    $font-Flaticon-mirrored-vanity-desk: "\f124";
+    $font-Flaticon-moisturizing-lotion: "\f125";
+    $font-Flaticon-nail-polish: "\f126";
+    $font-Flaticon-one-comb: "\f127";
+    $font-Flaticon-panties-with-lace: "\f128";
+    $font-Flaticon-picnic-basket: "\f129";
+    $font-Flaticon-roll-on-deodorant: "\f12a";
+    $font-Flaticon-toothbrush-and-toothpaste: "\f12b";
+    $font-Flaticon-two-earrings: "\f12c";
+    $font-Flaticon-two-nail-polish: "\f12d";
+    $font-Flaticon-women-brassiere: "\f12e";
+    $font-Flaticon-women-corset: "\f12f";
+    $font-Flaticon-women-lips: "\f130";
+    $font-Flaticon-women-razor: "\f131";
