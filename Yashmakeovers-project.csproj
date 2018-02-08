@@ -175,13 +175,16 @@
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="assets\images\bg\Banner-3.jpg" />
+    <Content Include="assets\images\bg\Banner-4.jpg" />
     <Content Include="assets\images\bg\n1.jpg" />
     <Content Include="assets\images\bg\q2.jpg" />
     <Content Include="assets\images\bg\q4.png" />
     <Content Include="assets\images\bg\q5.jpg" />
     <Content Include="assets\images\bg\q6.jpg" />
     <Content Include="bin\MakeUpProject1.dll.config" />
-    <Content Include="dummy.html" />
+    <Content Include="new-pics\Banner-3.jpg" />
+    <Content Include="new-pics\Banner-4.jpg" />
     <Content Include="new-pics\glitter.png" />
     <Content Include="new-pics\q1.jpg" />
     <Content Include="new-pics\q3.jpg" />
