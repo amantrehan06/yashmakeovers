@@ -1,0 +1,6 @@
+E:\Yash1\Yash1\Yash1\bin\Yash1.dll.config
+E:\Yash1\Yash1\Yash1\bin\Yash1.dll
+E:\Yash1\Yash1\Yash1\bin\Yash1.pdb
+E:\Yash1\Yash1\Yash1\obj\Debug\Yash1.csprojResolveAssemblyReference.cache
+E:\Yash1\Yash1\Yash1\obj\Debug\Yash1.dll
+E:\Yash1\Yash1\Yash1\obj\Debug\Yash1.pdb
