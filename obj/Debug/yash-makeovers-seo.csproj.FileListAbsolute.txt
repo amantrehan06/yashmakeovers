@@ -1,0 +1,6 @@
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\bin\yash-makeovers-seo.dll.config
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\bin\yash-makeovers-seo.dll
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\bin\yash-makeovers-seo.pdb
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\obj\Debug\yash-makeovers-seo.csprojResolveAssemblyReference.cache
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\obj\Debug\yash-makeovers-seo.dll
+E:\MOW_projects\yash-makeovers-seo\yash-makeovers-seo\obj\Debug\yash-makeovers-seo.pdb
